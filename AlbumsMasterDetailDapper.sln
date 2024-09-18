@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbumsMasterDetailDapper", "AlbumsMasterDetailDapper.csproj", "{A12F2A92-774F-47AF-8325-CB24AA35BE7D}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlbumsMasterDetailDapper.Model", "..\AlbumsMasterDetailDapper.Model\AlbumsMasterDetailDapper.Model.csproj", "{5F70297B-57AF-43F9-A926-D5D69CD313BB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlbumsMasterDetailDapper.Data", "..\AlbumsMasterDetailDapper.Data\AlbumsMasterDetailDapper.Data.csproj", "{7AC744A1-BAB6-4D29-B973-8851EE2C6BDB}"
@@ -19,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A12F2A92-774F-47AF-8325-CB24AA35BE7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A12F2A92-774F-47AF-8325-CB24AA35BE7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A12F2A92-774F-47AF-8325-CB24AA35BE7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A12F2A92-774F-47AF-8325-CB24AA35BE7D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5F70297B-57AF-43F9-A926-D5D69CD313BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5F70297B-57AF-43F9-A926-D5D69CD313BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F70297B-57AF-43F9-A926-D5D69CD313BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
