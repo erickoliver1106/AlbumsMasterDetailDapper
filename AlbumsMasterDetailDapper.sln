@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlbumsMasterDetailDapper.Model", "..\AlbumsMasterDetailDapper.Model\AlbumsMasterDetailDapper.Model.csproj", "{5F70297B-57AF-43F9-A926-D5D69CD313BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlbumsMasterDetailDapper2", "..\AlbumsMasterDetailDapper2\AlbumsMasterDetailDapper2.csproj", "{4ECB6BAE-11EB-4CF4-AAF7-52064ED1804C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlbumsMasterDetailDapper.Data", "..\AlbumsMasterDetailDapper.Data\AlbumsMasterDetailDapper.Data.csproj", "{7AC744A1-BAB6-4D29-B973-8851EE2C6BDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlbumsMasterDetailDapper.Data", "AlbumsMasterDetailDapper.Data\AlbumsMasterDetailDapper.Data.csproj", "{F7BD164F-07D4-4F0A-A778-D9136F8BE94D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlbumsMasterDetailDapper.Service", "..\AlbumsMasterDetailDapper.Service\AlbumsMasterDetailDapper.Service.csproj", "{DEBD3745-FE39-4457-A341-9A8019A29C85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlbumsMasterDetailDapper.Model", "AlbumsMasterDetailDapper.Model\AlbumsMasterDetailDapper.Model.csproj", "{29B0DF85-163B-44C5-A5A9-431DDBB2E617}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbumsMasterDetailDapper2", "..\AlbumsMasterDetailDapper2\AlbumsMasterDetailDapper2.csproj", "{4ECB6BAE-11EB-4CF4-AAF7-52064ED1804C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlbumsMasterDetailDapper.Service", "AlbumsMasterDetailDapper.Service\AlbumsMasterDetailDapper.Service.csproj", "{CB58869C-55B2-47BE-8535-26650C194E1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,22 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5F70297B-57AF-43F9-A926-D5D69CD313BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5F70297B-57AF-43F9-A926-D5D69CD313BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5F70297B-57AF-43F9-A926-D5D69CD313BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5F70297B-57AF-43F9-A926-D5D69CD313BB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7AC744A1-BAB6-4D29-B973-8851EE2C6BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7AC744A1-BAB6-4D29-B973-8851EE2C6BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7AC744A1-BAB6-4D29-B973-8851EE2C6BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7AC744A1-BAB6-4D29-B973-8851EE2C6BDB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DEBD3745-FE39-4457-A341-9A8019A29C85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DEBD3745-FE39-4457-A341-9A8019A29C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DEBD3745-FE39-4457-A341-9A8019A29C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DEBD3745-FE39-4457-A341-9A8019A29C85}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4ECB6BAE-11EB-4CF4-AAF7-52064ED1804C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4ECB6BAE-11EB-4CF4-AAF7-52064ED1804C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4ECB6BAE-11EB-4CF4-AAF7-52064ED1804C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4ECB6BAE-11EB-4CF4-AAF7-52064ED1804C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7BD164F-07D4-4F0A-A778-D9136F8BE94D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7BD164F-07D4-4F0A-A778-D9136F8BE94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7BD164F-07D4-4F0A-A778-D9136F8BE94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7BD164F-07D4-4F0A-A778-D9136F8BE94D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29B0DF85-163B-44C5-A5A9-431DDBB2E617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29B0DF85-163B-44C5-A5A9-431DDBB2E617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29B0DF85-163B-44C5-A5A9-431DDBB2E617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29B0DF85-163B-44C5-A5A9-431DDBB2E617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB58869C-55B2-47BE-8535-26650C194E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB58869C-55B2-47BE-8535-26650C194E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB58869C-55B2-47BE-8535-26650C194E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB58869C-55B2-47BE-8535-26650C194E1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
